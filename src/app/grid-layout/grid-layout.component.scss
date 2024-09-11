@@ -1,0 +1,43 @@
+:host {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  justify-items: stretch;
+  align-items: stretch;
+  gap: 24px;
+}
+.card {
+  height: max-content;
+}
+.media-content {
+  min-height: 180px;
+  max-height: 180px;
+}
+.body-content {
+  min-width: 50px;
+  min-height: 50px;
+}
+.actions-content {
+  min-width: 50px;
+  min-height: 40px;
+}
+.icon-button {
+  --ig-size: var(--ig-size-small);
+}
+.image {
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+.avatar {
+  --igx-avatar-background: transparent;
+}
+.text {
+  height: max-content;
+  min-width: min-content;
+}
+.button {
+  --ig-size: var(--ig-size-medium);
+  height: max-content;
+}
